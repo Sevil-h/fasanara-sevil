@@ -1,0 +1,117 @@
+.footer {
+	background-color: black;
+	color: white;
+	font-family: "Inter";
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 2rem 0;
+}
+.container {
+	width: 75%;
+	margin: auto;
+}
+.top {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.top ul {
+	list-style: none;
+}
+.top ul:nth-child(3) {
+	text-decoration: underline;
+}
+
+.top div {
+	text-align: left;
+}
+
+.logo {
+	font-size: 40px;
+	color: gray;
+	margin: 1rem;
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.newsletter {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 2rem;
+}
+
+.newsletter label {
+	font-size: 20px;
+	margin-bottom: 4px;
+}
+
+.newsletter input {
+	padding: 0.5rem;
+	margin-right: 4px;
+	width: 150px;
+}
+
+.newsletter input:nth-child(3) {
+	width: 275px;
+}
+
+.newsletter div {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+
+.button {
+	padding: 0.4rem 2rem;
+	color: white;
+	background-color: black;
+	border: 2px solid white;
+	position: absolute;
+	right: 4px;
+	bottom: 1px;
+	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+}
+
+.companyLogo {
+	width: 150px;
+	animation: brightness 0.5s forwards;
+}
+
+@keyframes brightness {
+	from {
+		filter: brightness(0.7);
+	}
+	to {
+		filter: brightness(1);
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: 90%;
+		margin: auto;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.newsletter div {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 591px) {
+	.top {
+		flex-direction: column;
+	}
+	.companyLogo {
+		width: 0;
+	}
+}

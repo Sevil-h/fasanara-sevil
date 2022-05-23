@@ -1,0 +1,52 @@
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
+	width: 70%;
+	background-color: white;
+	margin: auto;
+}
+
+.logo {
+	width: 150px;
+}
+.nav .list {
+	list-style: none;
+	display: flex;
+	width: 60%;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+	.nav {
+		width: 100%;
+		padding: 1rem 4rem;
+	}
+}
+
+@media screen and (max-width: 798px) {
+	.nav .list {
+		width: 80½;
+	}
+	.nav .list li {
+		padding: 4px;
+	}
+	.logo {
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 591px) {
+	.nav .list {
+		flex-wrap: wrap;
+	}
+	.logo {
+		width: 100px;
+	}
+	.nav {
+		padding: 0;
+	}
+}
