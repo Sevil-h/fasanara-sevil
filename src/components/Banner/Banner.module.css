@@ -1,7 +1,6 @@
 .banner {
 	width: 100%;
 	height: 500px;
-	background-color: grey;
 }
 
 .slider {
@@ -34,8 +33,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	margin: 3rem 0;
-	width: 70%;
+	margin: 3rem 12rem;
 	font-family: "Inter";
 	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -61,6 +59,11 @@
 	font-family: inherit;
 }
 
+@media screen and (max-width: 1024px) {
+	.caption {
+		margin: 3rem 6rem;
+	}
+}
 @media screen and (max-width: 768px) {
 	.caption h3 {
 		font-size: 40px;
@@ -70,7 +73,7 @@
 		color: lightgray;
 	}
 	.caption {
-		margin: 2rem 0;
+		margin: 2rem 3rem;
 		width: 80%;
 	}
 	.caption p {

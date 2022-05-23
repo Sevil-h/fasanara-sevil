@@ -9,7 +9,6 @@ import PodcastsTitle from "../components/Banner/PodcastsTitle";
 import MediaCards from "../components/Cards/MediaCard/MediaCards";
 
 const Home = (props) => {
-	console.log(props.data);
 	return (
 		<>
 			<Banner data={props.data.banner} />

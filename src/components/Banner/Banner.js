@@ -48,7 +48,7 @@ const Banner = (props) => {
 							<h3>{banner.title2}</h3>
 							<h4>{banner.subtitle}</h4>
 							<p>{banner.text}</p>
-							<BannerBtn text={banner.button} padding="8px 32px" />
+							<BannerBtn text={banner.button} />
 						</Carousel.Caption>
 					</Carousel.Item>
 				))}
