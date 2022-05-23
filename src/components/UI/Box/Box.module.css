@@ -1,0 +1,27 @@
+.box {
+	border: 1px solid lightgray;
+	border-radius: 20%;
+	width: 230px;
+	padding: 0.5rem;
+	text-align: center;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	margin-bottom: 1rem;
+}
+
+.image {
+	width: 180px;
+	filter: grayscale(1);
+}
+
+.title {
+	text-transform: capitalize;
+	font-family: "Radio Canada";
+	font-size: 20px;
+	text-align: center;
+}
+
+.text {
+	margin: 1rem 1.5rem;
+	font-size: 16px;
+	font-family: "Nunito";
+}

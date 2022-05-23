@@ -1,0 +1,33 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	min-width: 250px;
+	max-width: 310px;
+	border: 2px solid lightgray;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+	object-fit: cover;
+	height: 270px;
+}
+
+.info {
+	padding: 2rem 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-family: inherit;
+	font-size: 18px;
+	color: grey;
+}
+
+.text {
+	font-size: 14px;
+	text-align: center;
+	margin: 0;
+}
