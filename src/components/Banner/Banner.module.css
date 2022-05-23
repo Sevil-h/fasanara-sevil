@@ -1,0 +1,79 @@
+.banner {
+	width: 100%;
+	height: 500px;
+	background-color: grey;
+}
+
+.slider {
+	width: 100%;
+	height: 100%;
+}
+
+.sliderItem {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	object-fit: fill;
+}
+
+.sliderImage {
+	width: 100%;
+	height: 500px;
+	object-fit: fill;
+}
+.sliderVideo {
+	width: 100%;
+	height: 500px;
+	object-fit: fill;
+}
+.caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 3rem 0;
+	width: 70%;
+	font-family: "Inter";
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.caption h3 {
+	font-size: 56px;
+	font-weight: 700;
+	text-align: left;
+}
+
+.caption h3:nth-child(2) {
+	font-size: 64px;
+	color: lightgray;
+}
+.caption h4 {
+	text-align: left;
+	font-weight: 600;
+}
+
+.caption p {
+	width: 50%;
+	text-align: left;
+	font-family: inherit;
+}
+
+@media screen and (max-width: 768px) {
+	.caption h3 {
+		font-size: 40px;
+	}
+	.caption h3:nth-child(2) {
+		font-size: 48px;
+		color: lightgray;
+	}
+	.caption {
+		margin: 2rem 0;
+		width: 80%;
+	}
+	.caption p {
+		width: 100%;
+	}
+}
